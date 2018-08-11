@@ -1,5 +1,5 @@
 <?php
-function jolly($userid, $usertoken, $jum, $jumlah, $wait){
+function jolly($userid, $usertoken, $jumlah, $wait){
     $x = 0; 
     while($x < $jumlah) {
         for ($i = $jum; $i < $jumlah; $i++) {
